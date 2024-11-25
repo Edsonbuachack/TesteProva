@@ -3,11 +3,10 @@ package org.example;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-public class Projetoimovelmatch_Teste {
+public class ProjetoimovelmatchTest {
 
     @Test
     public void TestarAvaliarProximidadeServico() {
-    	
         Projetoimovelmatch imovel = new Projetoimovelmatch();
         assertTrue(imovel.AvaliarProximidadeServico("escola"));
         assertFalse(imovel.AvaliarProximidadeServico("cinema"));
