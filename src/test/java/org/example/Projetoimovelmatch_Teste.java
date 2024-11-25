@@ -7,6 +7,7 @@ public class Projetoimovelmatch_Teste {
 
     @Test
     public void TestarAvaliarProximidadeServico() {
+    	
         Projetoimovelmatch imovel = new Projetoimovelmatch();
         assertTrue(imovel.AvaliarProximidadeServico("escola"));
         assertFalse(imovel.AvaliarProximidadeServico("cinema"));
